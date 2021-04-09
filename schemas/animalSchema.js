@@ -9,7 +9,7 @@ export default gql`
   type Animal {
     id: ID
     animalName: String
-    : Species
+    species: Species
   }
 
   extend type Mutation {
